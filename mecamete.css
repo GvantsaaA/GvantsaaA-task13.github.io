@@ -1,0 +1,491 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+@font-face {
+    font-family: "Work sans";
+    src: url(WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "space";
+    src: url(SpaceMono-Bold.ttf);
+}
+@media only screen and (max-width: 992px) {
+    .marketpl{
+        display: none !important;
+    }
+    .rankings{
+        display: none !important;
+    }
+   
+    .connectawallet{
+        display: none !important;
+    }
+    .btn{
+        display: none !important;
+    }
+    .dropdown{
+        display: inline-block !important;
+    }
+    .sec3-sm-row{
+        display: inline-block !important;
+    }
+    .end1{
+        display: inline-block !important;
+    }
+    .sec3-row{
+        display: none !important;
+    }
+    .background-img{
+        display: none !important;
+    }
+    .backgroundimg-sm{
+        display: inline-block !important;
+        background-image: url(./images/Image\ PlaceHolder\ \(10\).png);
+        height: 250px;
+        width: 100%;
+    }
+    .line{
+        display: none !important;
+    }
+    .line-sm{
+        display: inline-block !important;
+    }
+    .vah{
+        display: inline-block !important;
+    }
+    .sec3-bt1{
+        width: 315px !important;
+    }
+    .sec3-bt2{
+        width: 315px !important;
+    }
+    .sec3-h4{
+        font-size: 23px !important;
+    }
+    .sec3-span{
+        font-size: 16px !important;
+    }
+    .stats{
+        display: none !important;
+    }
+    .bio{
+        display: none !important;
+    }
+    .weblinks{
+        display: none !important;
+    }
+    .sec3-lastpart{
+        display: none !important;
+    }
+    .cards{
+        display: none !important;
+    }
+    .cards1{
+        display: inline-block !important;
+    }
+    
+}
+/*section1*/
+
+.dropdown-menu{
+    inset: 40px 0px auto auto !important;
+    width: 360px;
+    transform: none !important;
+}
+
+.storefron{
+    font-family: "Work sans";
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.marketpl {
+    font-family: "Work sans";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.marketpl > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.ranking {
+    font-family: "Work sans";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.ranking > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.connectawalle {
+    font-family: "Work sans";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.connectawalle > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.sec1-btn1 {
+    font-family: "Work sans";
+    font-style: normal;
+    color: #FFFFFF;
+    width: 152px !important;
+    height: 60px !important;
+    background: #A259FF !important;
+    border-radius: 20px !important;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+/*end ofsection1*/
+
+/*section 2*/
+
+.background-img{
+    background-image: url(./images/Image\ PlaceHolder.png);
+    height: 320px;
+    
+}
+
+/*end of section2*/
+
+/*section3*/
+
+.artistname{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.sec3-bt1{
+    gap: 12px;
+
+    width: 186px;
+    height: 60px;
+
+    /* Call to Action */
+
+    background: #A259FF;
+    border-radius: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: transparent;
+}
+.sec3-bt2{
+    gap: 12px;
+
+    width: 145px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+
+    color: #FFFFFF;    
+    background-color: transparent;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+}
+
+.sec3-h4{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.sec3-span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.sec3-h5{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-transform: capitalize;
+
+    color: #858584;
+
+}
+
+.lasth{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    /* Caption & Label Text */
+
+    color: #858584;
+}
+
+
+.amount{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 32px;
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+    background: #3B3B3B;
+    border-radius: 20px;
+
+}
+
+.pir{
+    border-top: 1px solid #3B3B3B;
+}
+
+.pir:hover .lasth{ color: #FFFFFF; }
+.pir:hover .amount{ background-color: #858584;}
+.pir:hover{ border-bottom: 3px solid #858584;}
+
+/*end of sec3*/
+
+/*section4*/
+
+.sec4{
+    background-color: #3B3B3B;
+}
+
+
+.sec4-h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.artist-prof > span{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.card{
+    border: none !important;
+}
+
+.price{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+    
+    
+    color: #858584;
+}
+.pric{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+    }
+
+/*section5*/
+
+.sec5{
+    border-top: 2px solid #2B2B2B;
+    background-color: #3B3B3B;
+}
+
+.sec9-span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+.sec9-span1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+.nftmarket{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.input5{
+    position: relative;
+    gap: 12px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.joe{
+    padding: 18px 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    border: transparent;
+}
+.sec3-btn{
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    gap: 12px !important;
+    width: 179px;
+    height: 60px;
+    background: #A259FF !important;
+    border-radius: 20px !important;
+    color: #FFFFFF;
+}
+.normal{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+.foot{
+    padding-bottom: 35px;
+}
+
+.end{
+    border-top:  1px solid #858584;
+}
+
+/*section 3-smalldevice*/
+
+.inpt-group8 > input{
+    padding: 16px 20px;
+    gap: 12px;
+    width: 100%;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+}
+
+.inpt-group8 > button{
+    padding: 0px 50px;
+    gap: 12px;
+    width: 100%;
+    height: 46px;
+    background: #A259FF;
+    border-radius: 20px;
+    border: 1px solid #A259FF;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.norma {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #CCCCCC;
+}
